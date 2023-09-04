@@ -1,6 +1,6 @@
 # Diablo Monster Killcounter / works with DevilutionX
 
-The Diablo Killcounter reads the killdata from your savegame / Devilutionx memory and creates a HTML page
+The Diablo Killcounter reads the killdata from your savegame / Devilutionx memory and creates a HTML page. --> [my Diablo Killcount](https://pixel-madness.com/diablo-killcounter) 
 
 ## Howto keep killcounts with your multiplayer char
 
