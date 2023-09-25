@@ -26,7 +26,7 @@ e.g. [my Diablo Killcounter](https://pixel-madness.com/diablo-killcounter)
 - load killcounter char in single player mode
 - in Cheat Engine open the "Table" menu -> "Show Cheat Table LUA Script"
 - select your release version (local release = "0" or "1")
-- -  1 table data only e.g. for wordpress / other sites (you must upload the monster images to oyu webspace and change the imagepath1 var)
+- -  1 table data only e.g. for wordpress / other sites (you must upload the monster images to your webspace and change the imagepath1 var)
   -  0 for local data with complete html (imagepath will be images/)
 - press the Execute Script Button
 - copy the data from the output window
@@ -37,5 +37,6 @@ e.g. [my Diablo Killcounter](https://pixel-madness.com/diablo-killcounter)
 - download LUA (https://github.com/rjpcomputing/luaforwindows/releases)
 - compile the SV Tool (https://github.com/stoffelkopf/djavul/tree/master/cmd/sv)
 - copy your single player savegame (e.g. single_0.hsv) to the programm folder
+- change the savegame filename in killcounter.cmd (standard: single_0.hsv)
 - edit the variables in the killcounter.lua script (release version etc.)
 - start killcounter.bat
