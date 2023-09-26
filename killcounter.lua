@@ -24,7 +24,7 @@ local total = 0
 local golems
 local imagepath
 local picname
-local i = 1
+local i
 local killdata = {name={},kills={}}
 
 function switch(str)
@@ -73,18 +73,13 @@ function parse_killdata(monsters,kills)
 	print(string.format("Wrong killstring length. expected: 1104. got: %i",string.len(kills)))
 	os.exit()
   end
-  i = 1
-  while i < #monsterlist+1 do
+  for i=1,#monsterlist+1 do
 	tmp["name"][i]=monsters[i]
-	i=i+1
   end
-  i = 1
-  while i < string.len(kills) do
+  for i=1,string.len(kills),8 do
     tmp["kills"][j] = tonumber(string.sub(kills,i,i+7),16)
-    i = i + 8
 	j = j + 1
   end
-  i=1
   while i < #tmp["name"]+1 do
     if string.sub(tmp["name"][i], 1, 1) == "?" then
       if tmp["name"][i] == "? Golem" then
@@ -122,10 +117,10 @@ end
 function change_list(old,new,killdata)
   --change positions in the array
   if old > new then
-	local tmp1
-	local tmp2
-	tmp1 = killdata["name"][old]
-	tmp2 = killdata["kills"][old]
+    local tmp1
+    local tmp2
+    tmp1 = killdata["name"][old]
+    tmp2 = killdata["kills"][old]
     table.remove(killdata["name"],old)	
     table.remove(killdata["kills"],old)	
     table.insert(killdata["name"],new,tmp1)	
@@ -140,10 +135,10 @@ function change_list(old,new,killdata)
 end
 
 function tohex(str)
-	--convert binary data to hex
-    return (str:gsub('.', function (c)
-        return string.format('%02X', string.byte(c))
-    end))
+  --convert binary data to hex
+  return (str:gsub('.', function (c)
+    return string.format('%02X', string.byte(c))
+  end))
 end
 
 file=io.open(gamefile, "rb")
@@ -153,9 +148,7 @@ if file then
   kill_gamedata=tohex(file:read(552))
   file:close()     
 end
-
 killdata,golems = parse_killdata(monsterlist,kill_gamedata)
-
 if release == "1" then
   imagepath = imagepath1
   print("<table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\">")
@@ -168,9 +161,7 @@ else
 <table class="">
 ]])
 end
-
-i=1
-while i < #killdata["name"] do
+for i=1,#killdata["name"],4 do
   print ("<tr style=\"text-align: center;vertical-align: bottom\">")
   for j=0,3 do
     picname = switch(killdata["name"][i+j])
@@ -183,25 +174,16 @@ while i < #killdata["name"] do
     print(string.format("    <td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-top:none;padding-top:20px\"><p>%s<br>%s</p></td>", killdata["name"][i+j],  format_number(killdata["kills"][i+j])))
   end
   print ("  </tr>")
-  i=i+4
 end
 print ("  <tr>")
 print(string.format("    <td colspan=\"4\" style=\"text-align: center; border-width: 1px; border-style: solid; border-color: gray; border-spacing: 0px;	vertical-align: top\"><br><img src=\"%s/golem.%s\"><br><br>... and %s innocent Golems lost their life too ;)</td>", imagepath, image_extension, format_number(golems)))
 print ("  </tr>")
 print ("</table>")
 print("<p align=\"center\">Total Kills:",format_number(total),"</p>")
+print("<p style=\"font-size:12px;padding-top:40px\" align=\"right\">Last Update:",os.date ("%d.%m.%Y %H:%M"),"</p>")
 if release == "0" then
   print([[
 </body>
 </html>
 ]])
 end
-
---for debugging
---[[
-  i=1
-  while i < 50+1 do
-  print (i,killdata["name"][i],killdata["kills"][i])
-  i=i+1
-end
---]]
