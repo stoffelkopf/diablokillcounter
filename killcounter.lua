@@ -74,20 +74,20 @@ function parse_killdata(monsters,kills)
 	os.exit()
   end
   for i=1,#monsterlist+1 do
-	tmp["name"][i]=monsters[i]
+	tmp.name[i]=monsters[i]
   end
   for i=1,string.len(kills),8 do
-    tmp["kills"][j] = tonumber(string.sub(kills,i,i+7),16)
+    tmp.kills[j] = tonumber(string.sub(kills,i,i+7),16)
 	j = j + 1
   end
-  while i < #tmp["name"]+1 do
-    if string.sub(tmp["name"][i], 1, 1) == "?" then
-      if tmp["name"][i] == "? Golem" then
-        g = format_number(tmp["kills"][i])
+  while i < #tmp.name+1 do
+    if string.sub(tmp.name[i], 1, 1) == "?" then
+      if tmp.name[i] == "? Golem" then
+        g = format_number(tmp.kills[i])
       end   
-      table.remove(tmp["name"],i)	
-      table.remove(tmp["kills"],i)	
-	  i=i-1
+      table.remove(tmp.name,i)	
+      table.remove(tmp.kills,i)	
+      i=i-1
     end
     i=i+1
   end
@@ -119,17 +119,17 @@ function change_list(old,new,killdata)
   if old > new then
     local tmp1
     local tmp2
-    tmp1 = killdata["name"][old]
-    tmp2 = killdata["kills"][old]
-    table.remove(killdata["name"],old)	
-    table.remove(killdata["kills"],old)	
-    table.insert(killdata["name"],new,tmp1)	
-    table.insert(killdata["kills"],new,tmp2)		
+    tmp1 = killdata.name[old]
+    tmp2 = killdata.kills[old]
+    table.remove(killdata.name,old)	
+    table.remove(killdata.kills,old)	
+    table.insert(killdata.name,new,tmp1)	
+    table.insert(killdata.kills,new,tmp2)		
   else
-    table.insert(killdata["kills"],new,killdata["kills"][old])	
-    table.insert(killdata["name"],new,killdata["name"][old])	
-    table.remove(killdata["name"],old)	
-    table.remove(killdata["kills"],old)	
+    table.insert(killdata.kills,new,killdata.kills[old])	
+    table.insert(killdata.name,new,killdata.name[old])	
+    table.remove(killdata.name,old)	
+    table.remove(killdata.kills,old)	
   end
   return killdata
 end
@@ -161,17 +161,17 @@ else
 <table class="">
 ]])
 end
-for i=1,#killdata["name"],4 do
+for i=1,#killdata.name,4 do
   print ("<tr style=\"text-align: center;vertical-align: bottom\">")
   for j=0,3 do
-    picname = switch(killdata["name"][i+j])
+    picname = switch(killdata.name[i+j])
     print(string.format("    <td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-bottom:none\"><img src=\"%s/%s.%s\"></td>", imagepath, string.gsub(string.lower(picname)," ","-"), image_extension))
   end  
   print ("  </tr>")
   print ("  <tr style=\"text-align: center;vertical-align: bottom\">")  
   for j=0,3 do
-    total = total + (tonumber(killdata["kills"][i+j]) or 0)
-    print(string.format("    <td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-top:none;padding-top:20px\"><p>%s<br>%s</p></td>", killdata["name"][i+j],  format_number(killdata["kills"][i+j])))
+    total = total + (tonumber(killdata.kills[i+j]) or 0)
+    print(string.format("    <td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-top:none;padding-top:20px\"><p>%s<br>%s</p></td>", killdata.name[i+j],  format_number(killdata.kills[i+j])))
   end
   print ("  </tr>")
 end
