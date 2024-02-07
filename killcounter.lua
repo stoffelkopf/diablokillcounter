@@ -1,12 +1,6 @@
---[[
-release = 1 --> print html table only (for wordpress)
-release = 0 --> print complete HTML
---]]
-local release = "0"
-local imagepath0 = "images"
-local imagepath1 = "https://yoursite.files.wordpress.com/2023/08"
+local imagepath = "https://yoursite.files.wordpress.com/2023/08"
 local image_extension ="webp"
-local gamefile = "game" --name of the unencrypted gamedata file
+local gamefile = "game" --name of the unencrypted gamedata
 -- if you dont have an unencrypted save you can copy the hexadecimal kill data to this string e.g. from memory, cheat engine etc
 local kill_gamedata = "000000A0000000BA0000001900000034000000DE000000F80000003D0000007D0000011A000000000000006F000000A10000011D00000080000000E00000005E0000011D00000072000000BA000000910000004C0000007B0000014A000000CD0000013C00000104000000670000012000000000000000A9000000A300000135000000FB00000040000000520000007A0000000600000054000000B60000009A000000DE0000014B00000068000000960000003600000053000000DE000001000000012D00000129000000040000000800000050000000EC00000066000000EA000000000000000000000000000000000000009E0000007700000113000000F80000008E00000064000000AE000000FB0000000000000000000000000000000000000000000000000000000000000000000000160000014500000078000000B000000098000000C30000003400000077000000000000002A0000003300000051000001720000014D000003A00000029300000139000000BA000000B8000004570000069F0000002800000000000000000000000000000193000002CC000003F70000012A0000006D00000105000000F5000002F00000000D00000004000000000000005700000059000000230000001B0000003C0000001C00000034000000060000001C0000001C0000001D0000000100000001000000480000002A000000260000002A00000072000000000000002B000000140000007F00000057000000310000002800000002"
 local monsterlist = {
@@ -22,7 +16,6 @@ local monsterlist = {
 }
 local total = 0
 local golems
-local imagepath
 local picname
 local i
 local killdata = {name={},kills={}}
@@ -87,7 +80,7 @@ function parse_killdata(monsters,kills)
       end   
       table.remove(tmp.name,i)	
       table.remove(tmp.kills,i)	
-      i=i-1
+	  i=i-1
     end
     i=i+1
   end
@@ -149,18 +142,7 @@ if file then
   file:close()     
 end
 killdata,golems = parse_killdata(monsterlist,kill_gamedata)
-if release == "1" then
-  imagepath = imagepath1
-  print("<table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\">")
-else
-  imagepath = imagepath0
-  print([[
-<html lang="en">
-<head>
-<body bgcolor="#383838" style="color:#E0E0E0">
-<table class="">
-]])
-end
+print("<table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\">")
 for i=1,#killdata.name,4 do
   print ("<tr style=\"text-align: center;vertical-align: bottom\">")
   for j=0,3 do
@@ -181,9 +163,3 @@ print ("  </tr>")
 print ("</table>")
 print("<p align=\"center\">Total Kills:",format_number(total),"</p>")
 print("<p style=\"font-size:12px;padding-top:40px\" align=\"right\">Last Update:",os.date ("%d.%m.%Y %H:%M"),"</p>")
-if release == "0" then
-  print([[
-</body>
-</html>
-]])
-end
