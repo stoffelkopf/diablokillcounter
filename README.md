@@ -38,5 +38,5 @@ e.g. [my Diablo Killcounter](https://pixel-madness.com/diablo-killcounter)
 - compile the SV Tool (https://github.com/stoffelkopf/djavul/tree/master/cmd/sv)
 - copy your single player savegame (e.g. single_0.hsv) to the programm folder
 - change the savegame filename in killcounter.cmd (standard: single_0.hsv)
-- edit the variables in the killcounter.lua script (release version etc.)
+- edit the variables in the killcounter.lua script
 - start killcounter.bat
