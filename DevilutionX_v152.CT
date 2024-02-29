@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"Zombie"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"Ghoul"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"Rotting Carcass"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"Black Death"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B0C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>150</ID>
+      <Description>"Fallen One Spear"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>151</ID>
+      <Description>"Carver Spear"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"Devil Kin Spear"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>153</ID>
+      <Description>"Dark One Spear"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>154</ID>
+      <Description>"Skeleton"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>155</ID>
+      <Description>"Corpse Axe"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>156</ID>
+      <Description>"Burning Dead"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"Horror"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B2C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>158</ID>
+      <Description>"Fallen One"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>159</ID>
+      <Description>"Carver"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>160</ID>
+      <Description>"Devil Kin"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>161</ID>
+      <Description>"Dark One"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B3C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"Scavenger"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"Plague Eater"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>164</ID>
+      <Description>"Shadow Beast"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>165</ID>
+      <Description>"Bone Gasher"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>166</ID>
+      <Description>"Skeleton Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>167</ID>
+      <Description>"Corpse Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>168</ID>
+      <Description>"Burning Dead Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>169</ID>
+      <Description>"Horror Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>170</ID>
+      <Description>"Skeleton Captain"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>171</ID>
+      <Description>"Corpse Captain"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B64</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>172</ID>
+      <Description>"Burning Dead Captain"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>173</ID>
+      <Description>"Horror Captain"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B6C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>174</ID>
+      <Description>"?Invisible Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>175</ID>
+      <Description>"Hidden"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>176</ID>
+      <Description>"Stalker"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>177</ID>
+      <Description>"Unseen"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B7C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>178</ID>
+      <Description>"Illusion Weaver"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>179</ID>
+      <Description>"Flesh Clan"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>180</ID>
+      <Description>"Stone Clan"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>181</ID>
+      <Description>"Fire Clan"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>182</ID>
+      <Description>"Night Clan"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>183</ID>
+      <Description>"Flesh Clan Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>184</ID>
+      <Description>"Stone Clan Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>185</ID>
+      <Description>"Fire Clan Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>186</ID>
+      <Description>"Night Clan Bow"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>187</ID>
+      <Description>"Fiend"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>188</ID>
+      <Description>"Blink"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>189</ID>
+      <Description>"Gloom"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>190</ID>
+      <Description>"Familiar"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>191</ID>
+      <Description>"Acid Beast"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BB8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>192</ID>
+      <Description>"Poison Spitter"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BBC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>193</ID>
+      <Description>"Pit Beast"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>194</ID>
+      <Description>"Lava Maw"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BC4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>195</ID>
+      <Description>"Overlord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>196</ID>
+      <Description>"Mud Man"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>197</ID>
+      <Description>"Toad Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BD8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>198</ID>
+      <Description>"Flayed One"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>199</ID>
+      <Description>"? Wyrm"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BE0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>200</ID>
+      <Description>"? Cave Slug"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BE4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>201</ID>
+      <Description>"? Devil Wyrm"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>202</ID>
+      <Description>"? Devourer"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>203</ID>
+      <Description>"Magma Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>204</ID>
+      <Description>"Blood Stone"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>205</ID>
+      <Description>"Hell Stone"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BF8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>206</ID>
+      <Description>"Lava Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BFC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>207</ID>
+      <Description>"Horned Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>208</ID>
+      <Description>"Mud Runner"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>209</ID>
+      <Description>"Frost Charger"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>210</ID>
+      <Description>"Obsidian Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C0C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>211</ID>
+      <Description>"? Oldboned"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>212</ID>
+      <Description>"? Red Death"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>213</ID>
+      <Description>"? Litch Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>214</ID>
+      <Description>"? Undead Balrog"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>215</ID>
+      <Description>"? Incinerator"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>216</ID>
+      <Description>"? Flame Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C24</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>217</ID>
+      <Description>"? Doom Fire"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C28</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>218</ID>
+      <Description>"? Hell Burner"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C2C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>219</ID>
+      <Description>"Red Storm"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C30</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>220</ID>
+      <Description>"Storm Rider"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C34</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>221</ID>
+      <Description>"Storm Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C38</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>222</ID>
+      <Description>"Maelstorm"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C3C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>223</ID>
+      <Description>"Winged Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C44</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>224</ID>
+      <Description>"Gargoyle"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C48</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>225</ID>
+      <Description>"Blood Claw"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>226</ID>
+      <Description>"Death Wing"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>227</ID>
+      <Description>"Slayer"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C54</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>228</ID>
+      <Description>"Guardian"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C58</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>229</ID>
+      <Description>"Vortex Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C5C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>230</ID>
+      <Description>"Balrog"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C60</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>231</ID>
+      <Description>"Cave Viper"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C64</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>232</ID>
+      <Description>"Fire Drake"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C68</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>233</ID>
+      <Description>"Gold Viper"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C6C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>234</ID>
+      <Description>"Azure Drake"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C70</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>235</ID>
+      <Description>"Black Knight"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C74</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>236</ID>
+      <Description>"Doom Guard"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C78</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>237</ID>
+      <Description>"Steel Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C7C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>238</ID>
+      <Description>"Blood Knight"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>239</ID>
+      <Description>"? Hollow One"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>240</ID>
+      <Description>"? Pain Master"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>241</ID>
+      <Description>"? Reality Weaver"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C90</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>242</ID>
+      <Description>"Succubus"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C94</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>243</ID>
+      <Description>"Snow Witch"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C98</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>244</ID>
+      <Description>"Hell Spawn"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C9C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>245</ID>
+      <Description>"Soul Burner"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CA0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>246</ID>
+      <Description>"Counselor"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CA4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>247</ID>
+      <Description>"Magistrate"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CA8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>248</ID>
+      <Description>"Cabalist"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CAC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>249</ID>
+      <Description>"Advocate"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CB0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>250</ID>
+      <Description>"? Golem"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>251</ID>
+      <Description>"? The Arch-Litch Malignus"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CBC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>252</ID>
+      <Description>"Hellboar"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CC0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>253</ID>
+      <Description>"Stinger"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CC4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>254</ID>
+      <Description>"Felltwin"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>255</ID>
+      <Description>"Hork Spawn"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CD4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>256</ID>
+      <Description>"Psychorb"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CC8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>257</ID>
+      <Description>"Necromorb"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CDC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>258</ID>
+      <Description>"Arachnon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CCC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>259</ID>
+      <Description>"Spider Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CE0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>260</ID>
+      <Description>"Venomtail"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CD8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>261</ID>
+      <Description>"Lashworm"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CE4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>262</ID>
+      <Description>"Torchant"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CE8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>263</ID>
+      <Description>"Devil Kin Brute"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C40</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>264</ID>
+      <Description>"The Shredded"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584C84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>265</ID>
+      <Description>"Satyr Lord"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584B84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>266</ID>
+      <Description>"Gravedigger"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CF4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>267</ID>
+      <Description>"Tomb Rat"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CF8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>268</ID>
+      <Description>"Firebat"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CFC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>269</ID>
+      <Description>"Hellbat"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D0C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>270</ID>
+      <Description>"Skullwing"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D00</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>271</ID>
+      <Description>"Bone Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>272</ID>
+      <Description>"Lich"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D04</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>273</ID>
+      <Description>"Arch Lich"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D14</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>274</ID>
+      <Description>"Crypt Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D08</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>275</ID>
+      <Description>"Biclops"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D18</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>276</ID>
+      <Description>"Flesh Thing"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D1C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>277</ID>
+      <Description>"Reaper"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D20</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>278</ID>
+      <Description>"The Butcher"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BCC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>279</ID>
+      <Description>"Skeleton King"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584BC8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>280</ID>
+      <Description>"Diablo"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CB8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>281</ID>
+      <Description>"Hork Demon"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CEC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>282</ID>
+      <Description>"The Defiler"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584CF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>283</ID>
+      <Description>"Na-Krul"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>devilutionx.exe+584D24</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>--[[
+release = 1 --&gt; print table only for wordpress
+release = 0 --&gt; complete HTML site
+--]]
+local release = "1"
+local total = 0
+local image_extension ="webp"
+local golems
+local imagepath
+local picname
+local i = 0
+
+function switch(str)
+  local replace_pic = {
+    ["Lich"] = function()
+      return "Lich_neu"
+  	  end,
+    ["Biclops"] = function()
+  	  return "biclops-2758036587-e1693209259316"
+  	  end,
+    ["Na-Krul"] = function()
+  	  return "na-krul-285389680-e1693211972845"
+  	  end,
+    ["Hork Demon"] = function()
+  	  return "hork-demon-381439845-e1693212410179"
+  	  end,
+    ["Skeleton King"] = function()
+  	  return "skeleton-king-1894027303-e1693212976383"
+  	  end,
+    ["The Butcher"] = function()
+  	  return "the-butcher-294235459-e1693213195319"
+  	  end,
+    ["Crypt Demon"] = function()
+  	  return "crypt-demon-1801627462-e1693213400843"
+  	  end,
+    ["Arch Lich"] = function()
+  	  return "arch-lich-528698948-e1693214005707"
+  	  end,
+    ["Lashworm"] = function()
+  	  return "lashworm-1882881158-e1693214427950"
+  	  end,
+    ["Torchant"] = function()
+  	  return "torchant-3006222511-e1693214735219"
+  	  end,
+    ["Hork Spawn"] = function()
+  	  return "hork-spawn-683328103-e1693215047785"
+  	  end,
+    ["Felltwin"] = function()
+  	  return "felltwin-571119061-e1693215212444"
+  	  end,
+    ["Hellboar"] = function()
+  	  return "hellboar-2350885675-e1693215332327"
+  	  end
+  }
+
+  local check = replace_pic[str]
+  if (check) then
+    return check()
+  else
+    return str
+  end
+end
+
+function format_number(value)
+  local f_number = value
+  while true do
+    f_number, k = string.gsub(f_number, "^(-?%d+)(%d%d%d)", '%1.%2')
+    if (k==0) then
+      break
+    end
+  end
+  return f_number
+end
+
+if release == "1" then
+  imagepath = "https://pixelmadness.files.wordpress.com/2023/08"
+  print("&lt;table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\"&gt;")
+else
+  imagepath = "images"
+  print([[
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;body bgcolor="#383838" style="color:#E0E0E0"&gt;
+&lt;table class=""&gt;
+]])
+end
+while i &lt; AddressList.Count-1 do
+  print ("&lt;tr style=\"text-align: center;vertical-align: bottom\"&gt;")
+  for j=0,3 do
+    if string.sub(AddressList[i+j].Description, 1, 1) ~= "?" then
+      picname = switch(AddressList[i+j].Description)
+      print(string.format("    &lt;td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-bottom:none\"&gt;&lt;img src=\"%s/%s.%s\"&gt;&lt;/td&gt;", imagepath, string.gsub(string.lower(picname)," ","-"), image_extension))
+    else
+        while string.sub(AddressList[i+j].Description, 1, 1) == "?" do
+          if AddressList[i+j].Description == "? Golem" then
+            golems = format_number(AddressList[i+j].Value)
+          end
+          i=i+1
+        end
+        picname = switch(AddressList[i+j].Description)
+        print(string.format("    &lt;td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-bottom:none\"&gt;&lt;img src=\"%s/%s.%s\"&gt;&lt;/td&gt;", imagepath, string.gsub(string.lower(picname)," ","-"), image_extension))
+    end
+  end
+  print ("  &lt;/tr&gt;")
+  print ("  &lt;tr style=\"text-align: center;vertical-align: bottom\"&gt;")
+  for j=0,3 do
+    total = total + (tonumber(AddressList[i+j].Value) or 0)
+    print(string.format("    &lt;td width=\"25%%\" style=\"border-width: 1px;border-style: solid;border-color: gray;border-spacing: 0px;border-top:none;padding-top:20px\"&gt;&lt;p&gt;%s&lt;br&gt;%s&lt;/p&gt;&lt;/td&gt;", AddressList[i+j].Description,  format_number(AddressList[i+j].Value)))
+  end
+  print ("  &lt;/tr&gt;")
+  i=i+4
+end
+print ("  &lt;tr&gt;")
+print(string.format("    &lt;td colspan=\"4\" style=\"text-align: center; border-width: 1px; border-style: solid; border-color: gray; border-spacing: 0px;	vertical-align: top\"&gt;&lt;br&gt;&lt;img src=\"%s/golem.%s\"&gt;&lt;br&gt;&lt;br&gt;... and %s innocent Golems lost their life too ;)&lt;/td&gt;", imagepath, image_extension, format_number(golems)))
+print ("  &lt;/tr&gt;")
+print ("&lt;/table&gt;")
+print("&lt;p align=\"center\"&gt;Total Kills:",format_number(total),"&lt;/p&gt;")
+if release == "0" then
+  print([[
+&lt;/body&gt;
+&lt;/html&gt;
+]])
+end
+</LuaScript>
+</CheatTable>
