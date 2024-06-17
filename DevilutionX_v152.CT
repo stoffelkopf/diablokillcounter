@@ -831,59 +831,28 @@
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
-  <LuaScript>--[[
-release = 1 --&gt; print table only for wordpress
-release = 0 --&gt; complete HTML site
---]]
-local release = "1"
-local total = 0
+  <LuaScript>local total = 0
 local image_extension ="webp"
 local golems
-local imagepath
+imagepath = "https://yoursite.files.wordpress.com/2023/08"
 local picname
 local i = 0
 
 function switch(str)
+  -- html image file will be monstername.imageextension (hork-demon.webp)
+  -- if you want to replace the image file for a certain monster you can add it here
   local replace_pic = {
-    ["Lich"] = function()
-      return "Lich_neu"
+--[[  
+    ["monstername_to_replace"] = function()
+      return "filename_without_extension"
+  	  end,
+    ["2nd_monstername_to_replace"] = function()
+      return "2nd_filename_without_extension"
   	  end,
     ["Biclops"] = function()
   	  return "biclops-2758036587-e1693209259316"
-  	  end,
-    ["Na-Krul"] = function()
-  	  return "na-krul-285389680-e1693211972845"
-  	  end,
-    ["Hork Demon"] = function()
-  	  return "hork-demon-381439845-e1693212410179"
-  	  end,
-    ["Skeleton King"] = function()
-  	  return "skeleton-king-1894027303-e1693212976383"
-  	  end,
-    ["The Butcher"] = function()
-  	  return "the-butcher-294235459-e1693213195319"
-  	  end,
-    ["Crypt Demon"] = function()
-  	  return "crypt-demon-1801627462-e1693213400843"
-  	  end,
-    ["Arch Lich"] = function()
-  	  return "arch-lich-528698948-e1693214005707"
-  	  end,
-    ["Lashworm"] = function()
-  	  return "lashworm-1882881158-e1693214427950"
-  	  end,
-    ["Torchant"] = function()
-  	  return "torchant-3006222511-e1693214735219"
-  	  end,
-    ["Hork Spawn"] = function()
-  	  return "hork-spawn-683328103-e1693215047785"
-  	  end,
-    ["Felltwin"] = function()
-  	  return "felltwin-571119061-e1693215212444"
-  	  end,
-    ["Hellboar"] = function()
-  	  return "hellboar-2350885675-e1693215332327"
   	  end
+--]]	  
   }
 
   local check = replace_pic[str]
@@ -905,18 +874,7 @@ function format_number(value)
   return f_number
 end
 
-if release == "1" then
-  imagepath = "https://pixelmadness.files.wordpress.com/2023/08"
-  print("&lt;table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\"&gt;")
-else
-  imagepath = "images"
-  print([[
-&lt;html lang="en"&gt;
-&lt;head&gt;
-&lt;body bgcolor="#383838" style="color:#E0E0E0"&gt;
-&lt;table class=""&gt;
-]])
-end
+print("&lt;table style=\"background-color:#383838;font-size:16px; padding: .3em; margin-left:auto; margin-right:auto; border-collapse: collapse\"&gt;")
 while i &lt; AddressList.Count-1 do
   print ("&lt;tr style=\"text-align: center;vertical-align: bottom\"&gt;")
   for j=0,3 do
@@ -948,11 +906,5 @@ print(string.format("    &lt;td colspan=\"4\" style=\"text-align: center; border
 print ("  &lt;/tr&gt;")
 print ("&lt;/table&gt;")
 print("&lt;p align=\"center\"&gt;Total Kills:",format_number(total),"&lt;/p&gt;")
-if release == "0" then
-  print([[
-&lt;/body&gt;
-&lt;/html&gt;
-]])
-end
 </LuaScript>
 </CheatTable>
