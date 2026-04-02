@@ -4,7 +4,7 @@ The Diablo Killcounter reads the killdata from your savegame and creates a HTML 
 
 Example Page: [Diablo Killcounter](https://stoffelkopf.github.io/killcounter.html) 
 
-Usage: lua.exe killcounter.lua <HF|D1> <gamefile>
+Usage: lua.exe killcounter.lua <HF|D1> game
 
 ## Howto keep killcounts with your multiplayer char
 
@@ -26,5 +26,6 @@ Usage: lua.exe killcounter.lua <HF|D1> <gamefile>
 - download LUA 5.5
 - copy your single player savegame (e.g. single_0.hsv) to the programm folder
 - change the savegame filename in killcounter.cmd (standard: single_0.hsv)
+- change name of your lua.exe in killcounter.bat
 - edit the variables in the killcounter.lua script
 - start killcounter.bat
