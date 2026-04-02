@@ -4,6 +4,8 @@ The Diablo Killcounter reads the killdata from your savegame and creates a HTML 
 
 Example Page: [Diablo Killcounter](https://stoffelkopf.github.io/killcounter.html) 
 
+Usage: lua.exe killcounter.lua <HF|D1> <gamefile>
+
 ## Howto keep killcounts with your multiplayer char
 
 - start a new multiplayer session in kill some mobs
