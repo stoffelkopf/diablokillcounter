@@ -1,6 +1,4 @@
 @echo off
 MPQEditor.exe /console killcounter.cmd
-sv.exe game > game_tmp
+lua55.exe killcounter.lua HF game
 del game
-ren game_tmp game
-lua54.exe killcounter.lua > killcounter.html
