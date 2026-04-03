@@ -474,7 +474,7 @@ local function print_killcount_html(game_data,game)
         --bg-page: #222222;
         --bg-table: #383838;
         --text-main: #e0e0e0;
-        --border-color: gray;
+        --border-color: #555;
         --bg-golem: #404040;
     }
 
