@@ -465,6 +465,7 @@ local function print_killcount_html(game_data,game)
         os.exit()
     end
     killdata, golems = parse_killdata(monsterlist, kill_gamedata, game)
+    local max_kills = math.max(table.unpack(killdata.kills))
     out("<!DOCTYPE html>")
     out("<html><head><meta charset=\"utf-8\">")
     out("<title>Diablo Killcounter</title>")
@@ -597,6 +598,12 @@ local function print_killcount_html(game_data,game)
         text-shadow: 0 0 1px rgba(154, 107, 47, 0.25);
     }
 
+	td.maxkills p {
+        color: #ff2a2a;        
+        text-shadow: 0 0 4px rgba(0,0,0,0.8);		
+        letter-spacing: 0.6px;
+    }
+
     table tr:nth-child(even):hover td.boss p {
         text-shadow:
         0 0 6px rgba(230, 194, 138, 0.6),
@@ -650,13 +657,17 @@ local function print_killcount_html(game_data,game)
             if i+j <= #killdata.name then
                 total = total + (tonumber(killdata.kills[i+j]) or 0)
                 local is_boss = bosses[killdata.name[i+j]] and " boss" or ""
+				local is_max=""
+				if killdata.kills[i+j] == max_kills then
+					is_max = " maxkills"
+				end				
                 out(string.format(
-                "<td width=\"%.2f%%\" class=\"%s\"><p>%s<br>%s</p></td>",
+                "<td width=\"%.2f%%\" class=\"%s%s\"><p>%s<br>%s</p></td>",
                 t_width,
                 is_boss,
+				is_max,
                 killdata.name[i+j],
                 format_number(killdata.kills[i+j])))
-
             end
         end
         out("</tr>")
